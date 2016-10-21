@@ -1,0 +1,15 @@
+{
+  "name": "puppet-helloworld",
+  "version": "0.1.0",
+  "author": "Agostinho Ourique Cruz",
+  "summary": "Test Module",
+  "license": "AOC-1.0",
+  "source": "https://github.com/tcruz1971/puppet-helloworld.git",
+  "project_page": "https://github.com/tcruz1971/puppet-helloworld",
+  "issues_url": "https://github.com/tcruz1971/puppet-helloworld/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ],
+  "data_provider": null
+}
+

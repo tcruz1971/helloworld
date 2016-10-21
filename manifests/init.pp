@@ -43,6 +43,5 @@
 # Copyright 2016 Your name here, unless otherwise noted.
 #
 class helloworld {
-
-
+  notify {"This is the HelloWorld Module":}
 }

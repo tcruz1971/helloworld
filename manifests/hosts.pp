@@ -1,6 +1,6 @@
-class helloworld::hosts ($hosts = $helloworld::params::hosts) {
+class helloworld::hosts ($hosts = $helloworld::params::hosts) inherits helloworld::params {
   file { $hosts:
-    ensure => $hosts,
-    source => "puppet:///${hosts}",
+    ensure => present,
+    source => "puppet:///etc/hosts",
   }
 }
